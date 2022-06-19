@@ -38,7 +38,7 @@ jobs:
           releaseBody: 'See the assets to download this version and install.'
           releaseDraft: true
           prerelease: false
-      - name: deploy cloudflare
+      - name: deploy cloudflare (ubuntu only)
         if: matrix.platform == 'ubuntu-latest'
         uses: cloudflare/wrangler-action@2.0.0
         with:
