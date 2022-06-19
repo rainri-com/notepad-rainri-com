@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "Notepad RainRiCom",
+    "productName": "RainRiCom Notepad",
     "version": "0.0.0"
   },
   "tauri": {
@@ -52,7 +52,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "Notepad RainRiCom",
+        "title": "RainRiCom Notepad",
         "width": 800
       }
     ]
