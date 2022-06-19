@@ -1,3 +1,3 @@
-const App = () => <div>template-vite-react-tauri</div>
+const App = () => <div>notepad-rainri-com</div>
 
 export default App
