@@ -1,0 +1,23 @@
+name: 'Preview Build'
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  publish-react:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - name: install app dependencies and build it
+        run: yarn && yarn build
+      - name: deploy cloudflare
+        uses: cloudflare/wrangler-action@2.0.0
+        with:
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: pages publish --project-name=design-rainri-com dist

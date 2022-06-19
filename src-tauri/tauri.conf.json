@@ -7,8 +7,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "Template Vite React Tauri",
-    "version": "0.0.1"
+    "productName": "Notepad RainRiCom",
+    "version": "0.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -23,7 +23,7 @@
       },
       "externalBin": [],
       "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
-      "identifier": "com.template-vite-react-tauri",
+      "identifier": "com.rainri.notepad",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -52,7 +52,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "Template Vite React Tauri",
+        "title": "Notepad RainRiCom",
         "width": 800
       }
     ]
