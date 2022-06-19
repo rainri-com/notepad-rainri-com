@@ -44,4 +44,4 @@ jobs:
         with:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: pages publish --project-name=design-rainri-com dist
+          command: pages publish --project-name=notepad-rainri-com dist
