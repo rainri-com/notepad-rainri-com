@@ -1,1 +1,1 @@
-# template-vite-react-tauri
+# notepad-rainri-com
